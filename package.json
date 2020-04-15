@@ -1,0 +1,33 @@
+{
+  "name": "lab-09",
+  "version": "1.0.0",
+  "description": "Code 401 Lab 9 - API Server",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sueduclos-401-advanced-javascript/lab-09.git"
+  },
+  "author": "Sue Duclos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sueduclos-401-advanced-javascript/lab-09/issues"
+  },
+  "homepage": "https://github.com/sueduclos-401-advanced-javascript/lab-09#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0"
+  }
+}
